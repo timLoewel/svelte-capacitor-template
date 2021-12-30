@@ -65,8 +65,7 @@
         "pre-push": "npm test",
         "pre-commit": "lint-staged"
       }
-    }
-  },
+    },
   "lint-staged": {
     "['src/**/*.{ts,svelte}','!src/generated' ]": [
       "npm run lint --"
