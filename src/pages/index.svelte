@@ -1,20 +1,10 @@
 <script>
-    var name = "svelte"
-    var image = "svelte_cap.png"
+  var name = 'main index'
 </script>
 
 <div class="main">
-    <img src={image}/>
-    <h1>Welcome to {name}!</h1>
+  <h1>Welcome to {name}!</h1>
+
+  <a href="./welcome" class="btn btn-primary">welcome</a>
+  <a href="./initialSurvey" class="btn btn-secondary">survey</a>
 </div>
-
-<style>
-    .main {
-        text-align: center;
-        margin: 50px auto;
-    }
-
-    img {
-        max-width: 100%;
-    }
-</style>

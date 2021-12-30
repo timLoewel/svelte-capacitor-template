@@ -3,6 +3,7 @@
     "moduleResolution": "node",
     "target": "esnext",
     "module": "esnext",
+    "resolveJsonModule": true,
     /**
      * svelte-preprocess cannot figure out whether you have
      * a value or a type, so tell TypeScript to enforce using
@@ -16,6 +17,7 @@
      */
     "sourceMap": true,
     "inlineSources": true,
+    "noImplicitAny": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -54,6 +56,7 @@
     "globals.d.ts",
     "src/**/*.ts",
     "src/**/*.js",
+    "src/**/*.json",
     "src/**/*.svelte"
   ],
 }
